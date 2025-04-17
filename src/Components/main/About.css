@@ -1,0 +1,58 @@
+.aboutHelpBox{
+    background-color: rgb(37, 37, 37);
+}
+
+#aboutBox {
+    width: 100%;
+    height: 700px;
+    /* background-image: url("./images/tree-3358468_1280.jpg");
+    background-size: cover; */
+}
+
+.about_flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40rem;
+}
+
+.about_flex2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 40rem;
+}
+
+.aboutUs {
+    height: 14rem;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, rgb(0, 0, 0), transparent);
+}
+
+.aboutImage{
+    width: 45%;
+    height: 450px;
+    text-align: center;
+    background-image: url('D:\ecommerace\public\images\What_is_an_E-commerce_business_processed_processed.jpg');
+    background-size: cover;
+}
+
+.aboutHP{
+    width: 45%;
+    color: white;
+}
+
+.aboutUs h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.aboutUs p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}

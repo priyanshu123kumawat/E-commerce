@@ -1,0 +1,150 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.container {
+    max-width: 1198px;
+    margin: auto;
+}
+
+
+
+header{
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    /* background-color: white; */
+    background-color: rgb(222, 236, 248);
+    color: black;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+
+#head {
+    width: 100%;
+    height: 3.5rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 21%;
+    text-align: center;
+    margin: auto;
+    height: 98%;
+}
+
+.search {
+    width: 22%;
+    position: relative;
+}
+
+.search input {
+    width: 88%;
+    height: 1.3rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    padding-left: 4px;
+
+}
+
+.search i {
+    position: absolute;
+    right: 31px;
+    top: 4px;
+}
+
+.pages {
+    width: 45%;
+}
+
+.pages ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pages ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.pages ul .signIn a{
+    background-color: aquamarine;
+    width: 3rem;
+    color: black;
+    border-radius: 0.2rem;
+    padding: 0.6rem 1rem;
+}
+
+.pages ul .signUp a{
+    background-color: green;
+    width: 3rem;
+    color: black;
+    border-radius: 0.2rem;
+    height: 1.5rem;
+    padding: 0.6rem 1rem;
+}
+
+
+
+
+
+
+
+.menu-container {
+    position: relative;
+
+  }
+  
+  .menu-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  
+ 
+    
+  }
+  
+  .menu {
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 5px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    padding: 10px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .menu li a:hover {
+    text-decoration: underline;
+  }
+ 

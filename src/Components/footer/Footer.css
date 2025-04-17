@@ -1,0 +1,43 @@
+
+footer {
+    padding: 2rem 0rem;
+    background-color: #1b1b1b;
+    color: white;
+    height: 380px;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 4rem;
+}
+
+table th span {
+    border-bottom: 2px solid red;
+}
+
+table a {
+    color: white;
+    text-decoration: none;
+}
+
+.head {
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+}
+
+table tr {
+    width: 18%;
+    padding: 0% 1%;
+}
+
+.footer {
+    width: 100%;
+}
+
+.visits {
+    width: 96%;
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem;
+}

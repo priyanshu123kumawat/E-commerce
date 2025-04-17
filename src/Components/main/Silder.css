@@ -1,0 +1,23 @@
+
+.carousel-indicators{
+    visibility: hidden;
+}
+
+.carousel-control-next-icon{
+    background-image: url("https://i.pinimg.com/736x/bd/e2/ea/bde2eaf6d91fcb29ec78e771b3ca5776.jpg") !important;
+}
+
+.carousel-control-prev-icon{
+    /* background-image: url("../../../public/images/arrow.jpg") !important; */
+}
+
+.carousel-control-prev-icon:hover{
+    opacity: 2;
+}
+
+.carousel-control-next-icon:hover{
+    opacity: 2;
+}
+.carousel-inner{
+    border-radius: 27px;
+}
